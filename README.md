@@ -41,7 +41,7 @@ app/src/main/java/com/backtap/httpfire/
 
 ## 运行环境
 
-- **Android Studio**：Ladybug / Koala 或兼容版本
+- **Android Studio**：任意稳定版本
 - **Android SDK**：`compileSdk 34`
 - **最低系统版本**：Android 8.0 (`minSdk 26`)
 - **推荐设备**：支持背部轻敲并允许将该动作设为静音的小米 / HyperOS 设备
@@ -51,7 +51,7 @@ app/src/main/java/com/backtap/httpfire/
 ### 1. 克隆项目
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/JiXiangKing80/XiaoMiBackTapHTTP.git
 ```
 
 ### 2. 使用 Android Studio 打开项目
@@ -83,15 +83,15 @@ adb install app/build/outputs/apk/debug/app-debug.apk
 
 ### 1. 设置背部轻敲动作
 
-在系统中将背部轻敲动作设置为“静音”。
+在系统设置中将背部轻敲动作设为“静音”。
 
-部分设备也可以尝试使用：
+部分设备可尝试通过 adb 设置（**是否有效取决于机型和系统版本**）：
 
 ```bash
 adb shell settings put system back_double_tap "mute"
 ```
 
-是否生效取决于机型和系统版本。
+> 注意：该命令并非所有机型都支持，建议优先通过系统设置界面配置。
 
 ### 2. 开启无障碍服务
 
@@ -142,7 +142,7 @@ adb shell settings put system back_double_tap "mute"
 
 ## 保活说明
 
-在 MIUI / HyperOS 上，系统可能会更激进地回收后台服务。建议在首次安装后额外完成：
+在 MIUI / HyperOS 上，系统可能会更严格地限制后台服务。建议在首次安装后额外完成：
 
 1. 开启 App 自启动
 2. 关闭电池优化，改为“无限制”
@@ -163,15 +163,15 @@ App 内已提供“保活设置”入口辅助跳转。
 - 重启 App 后仍可查看最近日志
 - 日志数量有上限，超出后会自动清理旧记录
 
-## 开源建议
+## 后续建议
 
-如果你准备公开到 GitHub，建议额外补充：
+如需进一步完善项目，可以考虑补充：
 
-- `LICENSE`
+- `LICENSE`（开源许可证）
 - Release 截图
 - 示例配置说明
 - 常见问题（FAQ）
 
 ## 免责声明
 
-本项目仅供学习与个人自动化使用。请确保你发送请求的目标服务、设备和 API 符合当地法律法规及平台使用政策。
+本项目仅供学习与个人自动化使用。使用者应自行确保发送请求的目标服务、设备和 API 符合相关法律法规及平台使用协议。
