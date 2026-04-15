@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 主色调（蓝灰系，简洁专业） -->
+    <color name="seed">#3367D6</color>
+    <color name="md_primary">#3367D6</color>
+    <color name="md_on_primary">#FFFFFF</color>
+    <color name="md_primary_container">#DBE1FF</color>
+    <color name="md_on_primary_container">#001849</color>
+    <color name="md_secondary">#565E71</color>
+    <color name="md_on_secondary">#FFFFFF</color>
+    <color name="md_secondary_container">#DAE2F9</color>
+    <color name="md_surface">#F9F9FF</color>
+    <color name="md_on_surface">#191C20</color>
+    <color name="md_surface_variant">#E0E2EC</color>
+    <color name="md_on_surface_variant">#44474E</color>
+    <color name="md_outline">#74777F</color>
+    <color name="md_outline_variant">#C4C6CF</color>
+    <color name="md_error">#BA1A1A</color>
+    <color name="md_surface_container">#EDEDF4</color>
+    <color name="md_surface_container_low">#F3F3FA</color>
+    <color name="md_surface_container_high">#E7E8EE</color>
+
+    <!-- 状态指示色 -->
+    <color name="status_active">#1B873B</color>
+    <color name="status_paused">#E8890C</color>
+    <color name="status_off">#BA1A1A</color>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 图标前景：一个手指轻敲 + 信号波纹的图形，居中在 108x108 安全区 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 手指（简化圆角矩形） -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,38 C56.2,38 58,39.8 58,42 L58,62 C58,64.2 56.2,66 54,66 C51.8,66 50,64.2 50,62 L50,42 C50,39.8 51.8,38 54,38 Z" />
+
+    <!-- 指尖圆 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,34 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0" />
+
+    <!-- 波纹 1 -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M42,52 C40,47 40,41 42,36"
+        android:strokeLineCap="round" />
+
+    <!-- 波纹 2 -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M66,52 C68,47 68,41 66,36"
+        android:strokeLineCap="round" />
+
+    <!-- 波纹 3（外层） -->
+    <path
+        android:strokeColor="#BBFFFFFF"
+        android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M37,56 C34,48 34,38 37,30"
+        android:strokeLineCap="round" />
+
+    <!-- 波纹 4（外层） -->
+    <path
+        android:strokeColor="#BBFFFFFF"
+        android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M71,56 C74,48 74,38 71,30"
+        android:strokeLineCap="round" />
+
+    <!-- HTTP 文字 -->
+    <path
+        android:fillColor="#DDFFFFFF"
+        android:pathData="M42.5,72 L42.5,76 L44,76 L44,74.5 L46,74.5 L46,76 L47.5,76 L47.5,72 L46,72 L46,73.5 L44,73.5 L44,72 Z" />
+    <path
+        android:fillColor="#DDFFFFFF"
+        android:pathData="M49,73 L49,76 L50.5,76 L50.5,73 L52,73 L52,72 L47.5,72 L49,72 Z" />
+    <path
+        android:fillColor="#DDFFFFFF"
+        android:pathData="M53,73 L53,76 L54.5,76 L54.5,73 L56,73 L56,72 L51.5,72 L53,72 Z" />
+    <path
+        android:fillColor="#DDFFFFFF"
+        android:pathData="M57,72 L57,76 L58.5,76 L58.5,74.8 L60,74.8 C61,74.8 61.5,74.2 61.5,73.4 C61.5,72.6 61,72 60,72 L57,72 Z M58.5,73.2 L59.5,73.2 C59.8,73.2 60,73.3 60,73.5 C60,73.7 59.8,73.8 59.5,73.8 L58.5,73.8 Z" />
+</vector>

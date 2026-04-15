@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BackTapHTTP</string>
+    <string name="accessibility_service_description">监听背部轻敲触发的静音切换事件，自动反转静音并发送自定义 HTTP 请求。</string>
+    <string name="title_url">请求 URL</string>
+    <string name="title_method">请求方法</string>
+    <string name="title_headers">请求头 (每行一个 Key: Value)</string>
+    <string name="title_body">请求体 (POST/PUT)</string>
+    <string name="hint_url">https://example.com/api/trigger</string>
+    <string name="hint_headers">Content-Type: application/json\nAuthorization: Bearer xxx</string>
+    <string name="hint_body">{\"action\": \"back_tap\"}</string>
+    <string name="btn_save">保存配置</string>
+    <string name="btn_enable_service">开启无障碍服务</string>
+    <string name="status_service_on">✅ 服务运行中</string>
+    <string name="status_service_off">❌ 服务未开启</string>
+    <string name="toast_saved">配置已保存</string>
+    <string name="toast_url_empty">请输入 URL</string>
+</resources>
